@@ -31,8 +31,9 @@ L mjdjAMS 8 2 3 9 5 6 10 7 1 4
 After compiling the code and creating the input files, you can run the simulation using the following command:
 
 in terminal:\
-```./virus_simulation world_config.txt initial_generation.txt```
-The program will wait to insert the number of life-cycles for viruses
+```./virus_simulation world_config.txt initial_generation.txt```\
+
+**The program will wait to insert the number of life-cycles for viruses**
 ### Output
 The program will output the vector of weights for the last generation of viruses. Additionally, it will display the best virus based on the specified criteria.
 
