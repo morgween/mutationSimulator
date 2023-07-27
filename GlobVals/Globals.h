@@ -1,6 +1,7 @@
 #ifndef GLOBALS_H_
 #define GLOBALS_H_
 
+#include <iostream>
 /*
     Main functionality of the class is to save the global variables and to make them accessible from all 
     the other classes. 
@@ -21,23 +22,23 @@
 class Globals {
 public:
     // params we get from init file
-    static int Dimension;
+    static u_int Dimension;
     static int* targetVector;
     // params we get from location file 
-    static int vectorsPull;
+    static u_int vectorsPull;
     static int* arrayOfVersions;
 
     static void setDimension(int dim);
-    static int getDimension();
+    static u_int getDimension();
     
     static void setVectorsPull(int pull);
-    static int getVectorsPull();
+    static u_int getVectorsPull();
     
     static void setTargetVector(int* target);
     static int* getTargetVector();
 
     static void updateIndex(int i);
-    static int getIndex(int i);
+    static u_int getIndex(int i);
     
     static void setArrayOfVersions(int* versions);
     static int* getArrayOfVersions();

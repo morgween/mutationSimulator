@@ -1,7 +1,7 @@
 #include "Globals.h"
 
-int Globals::Dimension;
-int Globals::vectorsPull;
+u_int Globals::Dimension;
+u_int Globals::vectorsPull;
 int* Globals::targetVector;
 int* Globals::arrayOfVersions;
 
@@ -10,7 +10,7 @@ void Globals::setDimension(int dim) {
     Dimension = dim;
 }
 
-int Globals::getDimension() {
+u_int Globals::getDimension() {
     return Dimension;
 }
 
@@ -18,7 +18,7 @@ void Globals::setVectorsPull(int pull) {
     vectorsPull = pull;
 }
 
-int Globals::getVectorsPull() {
+u_int Globals::getVectorsPull() {
     return vectorsPull;
 }
 
@@ -39,7 +39,7 @@ int* Globals::getArrayOfVersions(){
 void Globals::updateIndex(int i){
     arrayOfVersions[i]++;
 }
-int Globals::getIndex(int i){
+u_int Globals::getIndex(int i){
     return arrayOfVersions[i];
 }
 void Globals::destroy(){
