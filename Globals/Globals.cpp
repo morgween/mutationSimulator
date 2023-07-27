@@ -1,4 +1,5 @@
 #include "Globals.h"
+
 int Globals::Dimension;
 int Globals::vectorsPull;
 int* Globals::targetVector;

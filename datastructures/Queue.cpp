@@ -1,7 +1,3 @@
-// Definition of member functions for the Queue<T> class
-// #include statements and other non-template functions
-
-// Implementation of member functions for the Queue<T> class
 #include "queue.h"
 
 template <typename T>
