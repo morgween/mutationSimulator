@@ -16,8 +16,8 @@ template <typename T>
 class Queue {
    private:
     T* data;
-    u_int size;
-    u_int capacity;
+    int size;
+    int capacity;
 
    public:
     // Constructs a new queue with a default capacity of 10.

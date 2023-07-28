@@ -3,8 +3,8 @@
 
 #include <iostream>
 /*
-    Main functionality of the class is to save the global variables and to make them accessible from all 
-    the other classes. 
+    Main functionality of the class is to save the global variables and to make them accessible from all
+    the other classes.
     The class is static, so we can access the variables without creating an object of the class.
     The class has 4 static variables:
         - Dimension - the dimension of the vectors
@@ -18,32 +18,31 @@
         - destroy - destroys the dinamicly allocated arrays
 */
 
-
 class Globals {
-public:
+   public:
     // params we get from init file
-    static u_int Dimension;
+    static int Dimension;
     static int* targetVector;
-    // params we get from location file 
-    static u_int vectorsPull;
+    // params we get from location file
+    static int vectorsPull;
     static int* arrayOfVersions;
 
     static void setDimension(int dim);
-    static u_int getDimension();
-    
+    static int getDimension();
+
     static void setVectorsPull(int pull);
-    static u_int getVectorsPull();
-    
+    static int getVectorsPull();
+
     static void setTargetVector(int* target);
     static int* getTargetVector();
 
     static void updateIndex(int i);
-    static u_int getIndex(int i);
-    
+    static int getIndex(int i);
+
     static void setArrayOfVersions(int* versions);
     static int* getArrayOfVersions();
 
-    //destroys dinamicly allocated arrays
+    // destroys dinamicly allocated arrays
     static void destroy();
 };
 #endif

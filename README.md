@@ -7,7 +7,8 @@ The main goal is to implement a generic data structure for a queue and extending
 ### Compilation
 To compile the project, you can use the g++ or any other compiler on your system. Make sure you have a compatible C++ compiler installed. 
 To compile the code, please use the following command in terminal:\
-```g++ -o virus_simulation main.cpp virus.cpp queue.cpp -std=c++11```
+```make```
+this command will create executable named `simulation` in the same directory
 ### Input Files
 The program expects two input files:
 
