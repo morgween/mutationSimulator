@@ -37,13 +37,11 @@ in terminal:\
 **The program will wait to insert the number of life-cycles for viruses**
 ### Output
 The program will output the vector of weights for the last generation of viruses. Additionally, it will display the best virus based on the specified criteria.
-
-###To clear the project or to rebuild it use:\
-`make clean`
 ## Notes
 * The program does not use the STL library to implement the queue.
 * Make sure your input files follow the correct format as described above.
 * You may refer to the comments in the source code for more details about the implementation.
+* To clear the project or to rebuild it use:  `make clean`
 ## Authors
 Maxim_V
 
